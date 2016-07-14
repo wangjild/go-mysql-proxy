@@ -39,3 +39,30 @@ test:
         name: hello test
         code: |
           echo "Hello test!"
+
+
+parallel-test:
+  steps:
+    # Build the project
+    - script:
+        name: hello test
+        code: |
+          echo "Hello test!"
+
+deploy:
+  steps:
+    # Build the project
+    - script:
+        name: hello test
+        code: |
+          echo "Hello test!"
+
+deploy-test:
+  steps:
+    # Build the project
+    - script:
+        name: hello test
+        code: |
+          echo "Hello test!"
+
+
